@@ -8,118 +8,12 @@
 <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f0e8;
-    color: #263d3a;
-}
 
-.header {
-    background-color: #dce8e2;
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.small-title {
-    font-size: 12px;
-    letter-spacing: 3px;
-}
-
-h1 {
-    font-size: 45px;
-    margin: 15px;
-}
-
-h1 span {
-    color: #a26b45;
-}
-
-.description {
-    font-size: 15px;
-}
-
-main {
-    padding: 50px 20px;
-}
-
-.box {
-    background-color: white;
-    max-width: 500px;
-    margin: -30px auto 0;
-    padding: 35px;
-    text-align: center;
-    box-shadow: 0 5px 15px #cfc8bd;
-}
-
-.label {
-    font-size: 12px;
-    letter-spacing: 2px;
-    color: #a26b45;
-}
-
-h2 {
-    font-size: 23px;
-}
-
-input {
-    width: 90%;
-    padding: 12px;
-    border: none;
-    border-bottom: 2px solid #7d918a;
-    font-size: 15px;
-}
-
-button {
-    width: 95%;
-    margin-top: 20px;
-    padding: 13px;
-    border: none;
-    background-color: #496b63;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #36544e;
-}
-
-#result {
-    margin-top: 25px;
-    font-weight: bold;
-}
 </style>
 </head>
 
 
 <body>
-
-    <div class="header">
-        <p class="small-title">The World of Asia</p>
-
-        <h1>The East Asia<br><span>Nickname Atlas</span></h1>
-
-        <p class="description">
-            Discover the nickname given to a country or place in East Asia.
-        </p>
-    </div>
-
-
-    <div class="box">
-
-        <p class="label">COUNTRY LOOKUP</p>
-
-        <h2>Enter an East Asian country</h2>
-
-        <input type="text" id="country" placeholder="Example: Japan">
-
-        <button py-click="show_nickname">
-            REVEAL NICKNAME
-        </button>
-
-        <p id="result"></p>
-
-    </div>
 
 
 <script type="py" src="main.py"></script>
