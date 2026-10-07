@@ -1,6 +1,6 @@
 from pyscript import document
 
-club_members = [("Olive", "Smith"),("Adam", "Carlsen"),("Ahn", "Pham")("Malcolm", "Browne"),("Jeremy", "Langley")]
+club_members = [("Olive", "Smith"),("Adam", "Carlsen"),("Ahn", "Pham"),("Malcolm", "Browne"),("Jeremy", "Langley")]
 
 def check_member(event):
 
