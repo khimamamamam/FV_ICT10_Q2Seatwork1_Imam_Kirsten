@@ -86,6 +86,33 @@
             font-size: 14px;
         }
 
+        .check_member {
+            width: auto;
+            padding: 10px 18px;
+            margin-top: 10px;
+
+            background: #71b5f4;
+            color: #0f3f75;
+
+            border: none;
+            border-radius: 5px;
+
+            font-family: 'Orbitron', sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+
+            transition: all 0.3s ease;
+        }
+
+        .check_member:hover {
+            transform: scale(1.02);
+
+            box-shadow:
+                0 0 10px #488db5,
+                0 0 20px #437ba6,
+                0 0 35px rgba(19, 95, 167, 0.7);
+        }
+
 </style>
 
 <!-- some css properties derived from old projects -->
@@ -102,9 +129,9 @@
         <input type="text" id="Fname" placeholder="First Name">
         <input type="text" id="Lname" placeholder="Last Name">
 
-        <br>
+        <br><br>
 
-        <button py-click="check_member">Check Membership</button>
+        <button class="check_member" py-click="check_member">Check Membership</button>
 
         <div id="result"></div>
 
